@@ -50,7 +50,6 @@ namespace Monogame_1._5___Enumerations
             fruit3Texture = Content.Load<Texture2D>("Images/fruit3");
             fruit4Texture = Content.Load<Texture2D>("Images/fruit4");
             instructionFont = Content.Load<SpriteFont>("Fonts/InstructionFont");
-
         }
 
         protected override void Update(GameTime gameTime)
@@ -90,10 +89,8 @@ namespace Monogame_1._5___Enumerations
                     fruitState = FruitState.Fresh;
                 }
             }
-
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
                 Exit();
-
 
             base.Update(gameTime);
         }
