@@ -9,6 +9,10 @@ namespace Monogame_1._5___Enumerations
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
 
+        Texture2D fruit1Texture, fruit2Texture, fruit3Texture, fruit4Texture;
+        SpriteFont instructionFont;
+        Rectangle window;
+
         public Game1()
         {
             _graphics = new GraphicsDeviceManager(this);
