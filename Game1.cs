@@ -31,6 +31,7 @@ namespace Monogame_1._5___Enumerations
         {
             _spriteBatch = new SpriteBatch(GraphicsDevice);
 
+
             // TODO: use this.Content to load your game content here
         }
 
